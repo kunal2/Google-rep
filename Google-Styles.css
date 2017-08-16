@@ -1,0 +1,307 @@
+body {
+	margin:8px;
+}
+
+header {
+	margin-top: 20px;
+}
+header ul {
+
+	list-style:none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right:25px;
+	margin-bottom:15px;
+	font-size:13px;
+	font-family:Arial;
+	height:20px;
+	
+}
+
+header li {
+	padding:5px 10px 3px 10px;
+}
+
+header a {
+	text-decoration:none;
+	color:#000;
+
+}
+
+header a:hover {
+	text-decoration: underline;
+	color:#609;
+
+}
+
+#signin {
+
+	background-color:#4285f4;
+	font-weight: bold;
+	border-radius:2px;
+	margin-left: 10px;
+	width:50px;
+	height:20px;
+
+}
+#signin a { 
+	color:#fff;
+
+}
+
+#signin a:hover {
+
+	text-decoration: none;
+	
+}
+
+
+#menu {
+
+
+}
+
+#menu img {
+
+	opacity: 0.5;
+}
+
+#menu img:hover {
+	opacity: 1;
+}
+
+.logo {
+	
+	position:absolute;
+	top:30%;
+	left:40%;
+}
+
+.logo img {
+	width:120%;
+	
+}
+
+.subText {
+
+	color:#4285f4;
+	font-family:"roboto regular",arial,sans-serif;
+	font-size:16px;
+	white-space: nowrap;
+	position:absolute;
+	top:76px;
+	left:220px;
+}
+
+.searchbar {
+	position:absolute;
+	top:316px;
+	left:400px;
+
+}
+
+.searchbar input[type="text"]{
+
+	background-image:("../images/mic.png");
+	background-size: 30px;
+	height:40px;
+	width: 580px;
+
+}
+
+
+.searchbar input[type="text"]:hover {
+	color:none;
+}
+.buttons {
+
+	position:absolute;
+	top:400px;
+	left:550px;
+
+}
+
+.btn input[type="submit"]:hover {
+	border:1px solid #222;
+	color:#black;
+}
+
+#smallNotes a {
+	text-decoration: none;
+}
+
+#searchBtn {
+	width: 130px;
+	height: 37px;
+	border:1px solid #f2f2f2;
+	border-radius:3px;
+	background-color:#F3F3F3;
+	color:#757575;
+	font-weight: bold;
+	font-size:13px;
+	font-family: arial,sans-serif;
+	text-align:center;
+	padding:0 16px;
+	margin:0px 4px;
+}
+
+#luckyBtn {
+	width: 141px;
+	height: 37px;
+	border:1px solid #f2f2f2;
+	border-radius:3px;
+	background-color:#F3F3F3;
+	color:#757575;
+	font-weight: bold;
+	font-size:13px;
+	font-family: arial,sans-serif;
+	text-align:center;
+	padding:0 16px;
+
+}
+
+#smallNotes {
+	position: absolute;
+	top:450px;
+	left:550px;
+	font-size: small;
+	font-family: arial,sans-serif;
+
+}
+
+#smallNotes a {
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+}
+
+#smallNotes a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: #F2F2F2;;
+}
+
+.footer a {
+	
+	text-decoration: none;
+	
+	font-size:13px;
+	font-family:Arial;
+	color:#222;
+	
+}
+*
+#left {
+	position:absolute;
+	bottom:0px;
+	left:20px;
+}
+#left li{
+	display:inline;
+	float:left;
+	padding:0px 20px 10px 0;
+}
+
+#right {
+	position:absolute;
+	bottom:0px;
+	right:20px;
+}
+
+#right li{
+	display:inline;
+	float:right;
+	padding:0px 20px 10px 0;
+}
+/*
+li {
+	display:inline;
+	padding:5px 10px 5px 10px;
+}
+
+
+
+*/
+/*
+#signin {
+	background-color:#4285f4;
+	border-radius:2px;
+
+	
+}
+
+#signin a {
+
+	padding-right:2px;
+	padding-left: 2px;
+	font-size:13px;
+	font-family:arial, sans-serif;
+	font-weight:bold;
+	color:#fff;
+}
+
+#menu a {
+
+	padding-right:3px;
+	padding-left: 3px;
+	
+}
+
+/*
+ ul {
+ 	text-align: right;
+ 	width:100%;
+ 	height:28px;
+ 	
+
+}
+
+li {
+	display:inline;
+	padding:10px;
+
+}
+
+#signin {
+	background-color: #4285f4;
+	border-bottom-right-radius:3px; 
+	border-bottom-right-radius:3px;
+	text-decoration-line: none;
+	white-space: nowrap;
+	margin-right:30px;
+}
+
+#signin a {
+	color:#fff;
+	font-family: arial, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+*/
+/*
+
+- Comments:; we could have created the align-to top right effect with float left in li elements but its better to use display inline
+.navbar {
+	position:absolute;
+	right: 0px;
+	width: 300px;
+	
+
+}
+/*
+ul {
+	list-style:none;
+	maring:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+*/
